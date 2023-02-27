@@ -1,0 +1,104 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lexend Deca', sans-serif;
+	padding: 20px;
+	--bright-orange: hsl(31, 77%, 52%);
+	--dark-cyan: hsl(184, 100%, 22%);
+	--very-dark-cyan: hsl(179, 100%, 13%);
+
+	--transparent-white: hsla(0, 0%, 100%, 0.75);
+	--very-light-gray: hsl(0, 0%, 95%);
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+.card-container {
+	overflow: hidden;
+	min-width: 300px;
+	max-width: 800px;
+	border-radius: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 40px auto;
+}
+
+.card-wrapper {
+	padding: 30px;
+	min-width: 200px;
+	min-height: 400px;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	justify-content: space-between;
+}
+
+.card-wrapper p {
+	font-size: 0.9rem;
+	line-height: 1.5;
+	font-weight: 400;
+	color: var(--transparent-white);
+}
+
+.card-wrapper.sedan {
+	background-color: var(--bright-orange);
+}
+
+.card-wrapper.sedan .btn {
+	color: var(--bright-orange);
+}
+
+.card-wrapper.suv {
+	background-color: var(--dark-cyan);
+}
+
+.card-wrapper.suv .btn {
+	color: var(--dark-cyan);
+}
+
+.card-wrapper.luxury {
+	background-color: var(--very-dark-cyan);
+}
+
+.card-wrapper.luxury .btn {
+	color: var(--very-dark-cyan);
+}
+
+.card-wrapper.sedan .btn:hover,
+.card-wrapper.suv .btn:hover,
+.card-wrapper.luxury .btn:hover {
+	background-color: transparent;
+	color: white;
+}
+
+.card-wrapper h2 {
+	font-family: 'Big Shoulders Display', cursive;
+	text-transform: uppercase;
+	font-size: 2rem;
+}
+
+.card-content {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.btn {
+	cursor: pointer;
+	border: none;
+	padding-block: 10px;
+	border-radius: 100px;
+	width: 70%;
+	font-weight: 700;
+	border: 2px solid white;
+}
