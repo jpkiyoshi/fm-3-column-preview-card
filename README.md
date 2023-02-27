@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Solution URL](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62/hub)
--   Live Site URL: [Live Site](https://jp-stats-preview-card-component.netlify.app/)
+-   Solution URL: [Solution URL](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub)
+-   Live Site URL: [Live Site](https://jp-fm-3-column-preview-card.netlify.app/)
 
 ## My process
 
@@ -38,7 +38,6 @@ Users should be able to:
 -   CSS custom properties
 -   Flexbox
 -   Mobile-first workflow
--   [Styled Components](https://styled-components.com/) - For styles
 
 ## Author
 
